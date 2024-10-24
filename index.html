@@ -3,28 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>En ultimo plano</title>
 </head>
 <body>
     <header>
-        <h1>En ultimo plano</h1>
-        <h2>Tu pagina de noticias sobre el mundo del cine y las series</h2>
-        <span>Lo mas nuevo</span>
-        <span>Proximos estrenos</span>
-        <span>Nuestras recomendaciones</span>
+        <div class="hd">
+            <div id="titulo">
+                <a href="index.html"><img src="En último plano 1.png" class="logo" /></a>
+            </div>
+                <div class="slogan">
+                    <h2>Tu pagina de noticias sobre el mundo del cine y las series</h2>
+                </div>
+                <div class="menu">
+                    <p>Lo mas nuevo</p>
+                </div>    
+                <div class="menu">    
+                    <p>Proximos estrenos</p>
+                </div>
+                <div class="menu">
+                    <p>Nuestras recomendaciones</p>
+                </div>  
+        </div>          
     </header>
     <hr>
     <main>
         <section>
+        <div class="articulo">
             <div>
-                <a href="Los estrenos mas esperados de Octubre.html"><h3>Los estrenos mas esperados de Octubre</h3></a>
-                <img src="th.jpeg" width="150" height="150">
+                <a href="Los estrenos mas esperados de Octubre.html"><h3 class="subtitulo">Los estrenos mas esperados de Octubre</h3></a>
+                <img src="th.jpeg" class="cover">
                 <p>Aqui encontraras una recopilacion de los estrenos que consideramos los mas esperados del mes de octubre de 2024</p>
             </div>
+        </div>
             <hr>
+        <div class="articulo">
             <div>
-                <h3>Los personajes mas aterradores</h3>
+                <h3 class="subtitulo">Los personajes mas aterradores</h3>
                 <p>Aqui En ultimo plano te brindamos una lista de los personajes mas aterradores del cine</p>
+               <br>
                 <ol>
                     <li>Letherface</li>
                     <li>Freddy Krueger</li>
@@ -32,9 +50,12 @@
                     <li>Dracula</li>
                 </ol>
             </div>
+        </div>
             <hr>
+        <div class="articulo">
             <div>
-                <h3>Consideraciones para sobrevivir un apocalipsis zombie</h3>
+                <h3 class="subtitulo">Consideraciones para sobrevivir un apocalipsis zombie</h3>
+                <br>
                 <p>Ademas te brindamos una serie de instrucciones a tener en cuenta para poder sobrevivir a un aterrador apocalipsis zombie</p>
                 <ul>
                     <li>Mantente en forma</li>
@@ -43,7 +64,7 @@
                     <li>Siempre ten suministros al alcance de tu mano</li>
                 </ul>
             </div>
-            <hr>
+        </div>
         </section>
     </main>
     <footer>
